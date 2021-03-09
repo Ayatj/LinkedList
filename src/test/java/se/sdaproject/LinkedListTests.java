@@ -25,4 +25,43 @@ class LinkedListTests {
         String expected = "LinkedList()";
         assertEquals(list.toString(), expected);
     }
+
+    @Test
+    void searchTest()
+    {
+        LinkedList list = new LinkedList();
+        list.add(5);
+        list.add(7);
+        list.add(10);
+        int search = list.search(10);
+        assertEquals(search,2);
+
+    }
+
+    @Test
+    void getTest()
+    {
+        LinkedList list = new LinkedList();
+        list.add(5);
+        list.add(7);
+        list.add(10);
+       Object get = list.get(0);
+       assertEquals(get , 5);
+
+    }
+
+    @Test
+    void sizeTest()
+    {
+        LinkedList list = new LinkedList();
+        list.add(5);
+        list.add(7);
+        list.add(10);
+       int size = list.size();
+      assertEquals(size , 3);
+
+    }
+
+
+
 }
