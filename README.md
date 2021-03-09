@@ -97,3 +97,4 @@ What are the advantages/disadvantages for a linked list in comparison to an arra
 1. ...adding an element?
 1. ...removing an element?
 1. ...memory usage?
+# LInked-list
